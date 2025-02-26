@@ -1,0 +1,39 @@
+ body {
+            font-family: Arial, sans-serif; /* Fonte */
+            display: flex; /*usa o FlexBox Para exibir o conteúdo*/
+            justify-content: center; /*Centraliza na horizontal*/
+            background-color: rgb(49, 62, 90);
+            height: 100vh; /* Altura da página*/
+            align-items: center; /*Centraliza na vertical*/
+            color: rgb(0, 0, 0);
+        }
+        .container { 
+            background-color: rgb(255, 255, 255);
+            padding: 20px; /* Espaçamento interno*/
+            border-radius: 15px;
+            box-shadow: 4px 5px rgb(0, 0, 0);
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        #Image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        
+        }
+
+        .Botao {
+
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        button:hover {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border-color: black;
+        }
