@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trote Solidário - 2025</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header> <!-- Cabeçalho do corpo da página-->
+        Trote Solidário 2025
+    </header>
+    <nav> <!-- barra de navegação-->
+        <div id="linksmenu">
+            <a href="index.html">Home</a>
+            <a href="introducao.html"> Introdução </a>
+            <a href="objetivo.html"> Objetivo </a>
+            <a href="formato.html"> Formato </a>
+            <a href="gincana.html"> Gincana </a>
+            <a href="integracao.html"> Integração </a>
+            <a href="observacoes"> Observações </a>
+            <a href="calculadores.html"> Calculadoras </a>
+        </div>
+        <img id="img" src="img/trote_solidario_2025_edited-300x294.jpg" alt="Trote Solidário"/>
+    </nav>
+    <div class="container">
+        <h2>Calculadoras</h2>
+        <form>
+            <div class="botaoc">
+                <label>Selecione a cor das equipes</label>
+                    <select id="opcoes">
+                            <option value="laranja">Laranja</option>
+                            <option value="preta">Preta</option>
+                            <option value="roxa">Roxa</option>
+                            <option value="verde">Verde</option>
+                            <option value="vermelho">Vermelho</option>
+                    </select>
+            </div>
+            <div class="botaoc">
+                <label>Mascote do time </label>
+                <input type="number" id="mascote">
+            </div>
+            <div class="botaoc">
+                <label>Homenagem a um atleta </label>
+                <input type="number" id="homenagem">
+            </div>
+            <div class="botaoc">
+                <label>Quantide de litros de leite </label>
+                <input type="number" id="leite">
+            </div>
+            <div class="botaoc">
+                <label>Kit alimentação</label>
+                <input type="number" id="kit">
+            </div>
+            <div class="botaoc">
+                <label>Suplemento</label>
+                <input type="number" id="supl">
+            </div>
+            <div class="botaoc">
+                <label>Doação de sangue</label>
+                <input type="number" id="sangue">
+            </div>
+            <div class="botaoc">
+                <button type="button" onclick="calcular()"> Calcular </button> 
+                <label id="soma"></label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

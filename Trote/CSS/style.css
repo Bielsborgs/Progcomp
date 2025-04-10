@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #28a745;
+    background-color: #e78630;
     color: white;
     padding: 15px 0px; /* 15px (espaçamento interno cima e baixo) e 0px direito e esquerda*/
 
@@ -50,5 +50,65 @@ nav a {
 }
 
 h2 {
-    
+    text-align: center;
+}
+
+ol li {
+    padding-bottom: 10px;
+}
+
+ul li {
+    padding: 10px;
+} 
+
+table tr td {
+    padding: 20px;
+}
+
+.laranja {
+    background-color: orange;
+    padding: 5px;
+    text-align: center;
+}
+
+.preta {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.roxo {
+    background-color: purple;
+    padding: 5px;
+    text-align: center;
+}
+
+.verde {
+    background-color: green;
+    padding: 5px;
+    text-align: center;
+} 
+
+.vermelha {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+}
+
+thead {
+    background-color: navy;
+    color: white;
+} 
+
+th{
+    text-align: center;
+    padding: 5px;
+}
+
+table {
+    margin: 0 auto; /* alinha os elementos da tabela no centro */
+}  
+.botaoc {
+    margin-bottom: 10px;
 }
