@@ -66,9 +66,10 @@ table tr td {
 }
 
 .laranja {
-    background-color: orange;
+    background-color: rgb(212, 138, 0);
     padding: 5px;
     text-align: center;
+    color: white;
 }
 
 .preta {
@@ -82,17 +83,20 @@ table tr td {
     background-color: purple;
     padding: 5px;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 .verde {
     background-color: green;
     padding: 5px;
     text-align: center;
+    color: white;
 } 
 
 .vermelha {
     background-color: red;
     padding: 20px;
+    color: white;
     text-align: center;
 }
 
@@ -111,4 +115,28 @@ table {
 }  
 .botaoc {
     margin-bottom: 10px;
+}
+
+.quadrado {
+    background-color: #dce9f4;
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.quadrado2 {
+    background-color: rgb(237,239,213);
+    padding: 20px;
+    border: 2px solid black;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.negrito {
+    font-weight: bolder;
+}
+
+#cinza {
+    background-color: rgb(179, 179, 179);
+    font-weight: bolder;
 }
